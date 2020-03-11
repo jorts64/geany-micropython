@@ -22,3 +22,7 @@ Integració editor geany amb micropython ESP8266 D1 mini
 Ja podem treballar al nostre entorn micropython :blush:
 
 ![Captura de pantalla](/screenshot.png)
+
+Potser no tingueu instal·lat al sistema el pip, caldrà fer 
+sudo apt install python-pip
+També és possible que us calgui sortir i entrar de sessió per activar tots els canvis
