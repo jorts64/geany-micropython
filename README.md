@@ -13,9 +13,9 @@ Integració editor geany amb micropython ESP8266 D1 mini
 
 ## Integració:
 * Obrir geany i carregar un fitxer python (.py)
-* Anar a Munta -> Especifica Ordre de Muntatge
+* Anar a Munta (Construeix a noves versions) -> Especifica Ordre de Muntatge (Ordres de construcció a noves versions)
 * Afegir 2 noves opcions (veure imatge):
-  * La Opció 2 de Compile: Executa al D1 mini, ampy -p /dev/ttyUSB0 run "%f" -n
+  * La Opció 2 de Compile: Executa al D1 mini, ampy -p /dev/ttyUSB0 run "%f" 
   * La Opció 2 de Execute: Consola D1 mini, picocom -b 115200 /dev/ttyUSB0 
 * Canviar la opció 3 de Compile: Executa bucle infinit al D1 mini, ampy -p /dev/ttyUSB0 run "%f" -n
 
