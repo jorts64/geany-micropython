@@ -25,4 +25,5 @@ Ja podem treballar al nostre entorn micropython :blush:
 
 Potser no tingueu instal·lat al sistema el pip, caldrà fer 
 sudo apt install python-pip
+
 També és possible que us calgui sortir i entrar de sessió per activar tots els canvis
