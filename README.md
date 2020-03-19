@@ -27,3 +27,18 @@ Potser no tingueu instal·lat al sistema el pip, caldrà fer
 sudo apt install python-pip
 
 També és possible que us calgui sortir i entrar de sessió per activar tots els canvis
+
+## Important
+
+Tots els fitxser s'executen al D1 mini, però no es desen a la seva memòria flash
+
+Si volem actualitzar el fitxer *main.py* (que s'autoexecuta després del *boot.py* després de donar alimentació al D1 mini) haurem de fer al terminal
+~~~
+ampy -p /dev/ttyUSB0 put "main.py"
+~~~
+El mayteix passa si volem actualitzar el fitxer "boot.py" o qualsevol llibreria
+
+Per tenr un llistat del les ordres disponibles només cal fer en un terminal
+~~~
+ampy
+~~~
