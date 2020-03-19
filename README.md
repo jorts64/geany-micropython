@@ -36,9 +36,12 @@ Si volem actualitzar el fitxer *main.py* (que s'autoexecuta després del *boot.p
 ~~~
 ampy -p /dev/ttyUSB0 put "main.py"
 ~~~
-El mayteix passa si volem actualitzar el fitxer "boot.py" o qualsevol llibreria
+El mateix passa si volem actualitzar el fitxer "boot.py" o qualsevol llibreria
 
-Per tenr un llistat del les ordres disponibles només cal fer en un terminal
+Per tenir un llistat del les ordres disponibles només cal fer en un terminal
 ~~~
 ampy
 ~~~
+
+Si voleu podeu ampliar el nom d'opcions de *Geany* a *Compile* i afegir una nova opció per actualitzar *main.py* podeu anar
+a *Edita -> Preferències -> Diversos*  i canviar el valor de *number_ft_menu_items*. Us caldrà reiniciar *Geany* per que els canvis tinguin efecte. 
