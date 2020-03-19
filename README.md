@@ -12,7 +12,7 @@ Integració editor geany amb micropython ESP8266 D1 mini
 * sudo apt install geany
 
 ## Integració:
-* Obrir geany i carregar un fitxer python (.py)
+* Obrir geany i carregar un fitxer python (.py). Els canvis que farem son depenents de l'extensió del fitxer.
 * Anar a Munta (Construeix a noves versions) -> Especifica Ordre de Muntatge (Ordres de construcció a noves versions)
 * Afegir 2 noves opcions (veure imatge):
   * La Opció 2 de Compile: Executa al D1 mini, ampy -p /dev/ttyUSB0 run "%f" 
