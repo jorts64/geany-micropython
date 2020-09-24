@@ -48,3 +48,5 @@ a *Edita -> Preferències -> Diversos*  i canviar el valor de *number_ft_menu_it
 
 # Instal·lació de micropython i de les llibreries al D1mini
 Mireu les [instruccions](micropythonInstall.md) que he preparat
+# Agraïments
+Publicació MQTT gràcies a Rui Santos i [Random Nerd Tutorials](https://randomnerdtutorials.com/micropython-mqtt-publish-dht11-dht22-esp32-esp8266/), especialment per la llibreria [umqttsimple.py](https://github.com/RuiSantosdotme/ESP-MicroPython/blob/master/code/MQTT/umqttsimple.py)
