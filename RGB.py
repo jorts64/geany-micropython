@@ -1,5 +1,4 @@
-
-import time
+from D1mini import *
 
 led[0] = color['blanc']
 led[1] = color['vermell']

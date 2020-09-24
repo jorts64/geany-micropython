@@ -1,3 +1,4 @@
+from D1mini import *
 
 while True:
 	sensor.measure()

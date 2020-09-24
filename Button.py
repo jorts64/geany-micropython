@@ -1,5 +1,4 @@
-
-import time 
+from D1mini import *
  
 while True:
    if polsador():
