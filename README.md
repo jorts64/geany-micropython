@@ -45,3 +45,6 @@ ampy
 
 Si voleu podeu ampliar el nom d'opcions de *Geany* a *Compile* i afegir una nova opció per actualitzar *main.py* podeu anar
 a *Edita -> Preferències -> Diversos*  i canviar el valor de *number_ft_menu_items*. Us caldrà reiniciar *Geany* per que els canvis tinguin efecte. 
+
+# Instal·lació de micropython i de les llibreries al D1mini
+Mireu les [instruccions](micropythonInstall.md) que he preparat
