@@ -1,4 +1,4 @@
-# This file is executed on every boot (including wake-boot from deepsleep)
+# This file must be imported to access D1 mini hardware and LAN connectivity
 
 import esp
 
@@ -52,8 +52,8 @@ import machine
 import micropython
 import network
 
-ssid = 'NOM DE LA XARXA'
-password = 'CONTRASENYA DE LA XARXA'
+ssid = 'jortsnet'
+password = '9periodico'
 
 mqtt_server = '192.168.1.60'
 client_id = ubinascii.hexlify(machine.unique_id())
