@@ -1,5 +1,6 @@
 # Instal·lació micropython al D1 mini
-Per instal·lar micropython al vostre D1 mini cal 
+Per instal·lar micropython al vostre D1 mini cal    
+
     sudo pip3 install esptool
     cd firmware
     esptool.py --port /dev/ttyUSB0 erase_flash
