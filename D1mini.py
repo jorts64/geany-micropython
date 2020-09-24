@@ -52,8 +52,8 @@ import machine
 import micropython
 import network
 
-ssid = 'jortsnet'
-password = '9periodico'
+ssid = 'NOM DE LA XARXA'
+password = 'CONTRASENYA DE LA XARXA'
 
 mqtt_server = '192.168.1.60'
 client_id = ubinascii.hexlify(machine.unique_id())
